@@ -1,6 +1,6 @@
 language: generic
 
-if: branch = master AND tag =~ ^v1
+if: branch = master AND tag =~ ^[0-9]
 
 install:
   # Installing helm
