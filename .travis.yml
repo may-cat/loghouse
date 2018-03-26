@@ -1,7 +1,5 @@
 language: generic
 
-if: branch = master AND tag =~ ^[0-9]
-
 install:
   # Installing helm
   - wget -q https://storage.googleapis.com/kubernetes-helm/helm-v2.6.2-linux-amd64.tar.gz
