@@ -8,6 +8,7 @@ install:
   - helm init --client-only
 
 script:
+  - if [ "$TRAVIS_BRANCH" != "master" ]; then VERSION="--version branch_$branch"; fi
   - if [ ! -z "$TRAVIS_TAG" ]; then VERSION="--version $TRAVIS_TAG"; fi
   - git remote set-branches --add origin gh-pages
   - git fetch origin gh-pages
