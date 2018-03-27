@@ -21,7 +21,7 @@ script:
   - helm repo index charts/
   - git add charts/
   - git commit --message "Add new version ${TRAVIS_TAG}"
-  - git remote add origin-pages https://${GITHUB_TOKEN}@github.com/flant/loghouse.git
+  - git remote add origin-pages https://${GITHUB_TOKEN}@github.com/${TRAVIS_REPO_SLUG}.git
   - git push --quiet --set-upstream origin-pages gh-pages
 after_success:
   - true
