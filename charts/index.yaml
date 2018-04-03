@@ -1,7 +1,28 @@
 apiVersion: v1
 entries:
   loghouse:
-  - created: 2018-03-27T09:09:28.681782994Z
+  - created: 2018-04-03T12:30:35.390710665Z
+    description: Loghouse (Fluentd, Clickhouse, Tabix, Loghouse) for collect and prepare
+      logs for Kubernetes cluster.
+    digest: 171e54bc9e0c92f8752233a4f04c84a5e9a5f5d76814a3a22985a416422424da
+    keywords:
+    - fluentd
+    - clickhouse
+    - tabix
+    - loghouse
+    - kubernetes
+    maintainers:
+    - email: dmitry.stolyarov@flant.com
+      name: Dmitry Stolyarov
+    - email: andrey.sidorov@flant.com
+      name: Andrey Sidorov
+    - email: sergey.gnuskov@flant.com
+      name: Sergey Gnuskov
+    name: loghouse
+    urls:
+    - loghouse-0.1.7-beta.tgz
+    version: 0.1.7-beta
+  - created: 2018-04-03T12:30:35.389012545Z
     description: Loghouse (Fluentd, Clickhouse, Tabix, Loghouse) for collect and prepare
       logs for Kubernetes cluster.
     digest: 60a5043b8bfb42d812f140b63d9aedf1069cbb75c65d80111193bdbdd4c2b032
@@ -22,7 +43,7 @@ entries:
     urls:
     - loghouse-0.1.6.tgz
     version: 0.1.6
-  - created: 2018-03-27T09:09:28.680412056Z
+  - created: 2018-04-03T12:30:35.387371602Z
     description: Loghouse (Fluentd, Clickhouse, Tabix, Loghouse) for collect and prepare
       logs for Kubernetes cluster.
     digest: 1a0335abeb3de6552c06093fb4c02b882086faeebe258f53d3a57c5bea3edb45
@@ -43,7 +64,7 @@ entries:
     urls:
     - loghouse-0.1.6-beta.tgz
     version: 0.1.6-beta
-  - created: 2018-03-27T09:09:28.679183558Z
+  - created: 2018-04-03T12:30:35.386260533Z
     description: Loghouse (Fluentd, Clickhouse, Tabix, Loghouse) for collect and prepare
       logs for Kubernetes cluster.
     digest: 839734a9d29536ee33673f6fc2c501db090580342a573fa79713f82294843a0d
@@ -64,7 +85,7 @@ entries:
     urls:
     - loghouse-0.1.3.tgz
     version: 0.1.3
-  - created: 2018-03-27T09:09:28.677894202Z
+  - created: 2018-04-03T12:30:35.385149354Z
     description: Loghouse (Fluentd, Clickhouse, Tabix, Loghouse) for collect and prepare
       logs for Kubernetes cluster.
     digest: ad974c06124f8a8559e906082ba54ba3428c32f4ec1de2ddd8708ab1e735a010
@@ -85,4 +106,4 @@ entries:
     urls:
     - loghouse-0.0.1.tgz
     version: 0.0.1
-generated: 2018-03-27T09:09:28.676356872Z
+generated: 2018-04-03T12:30:35.383870347Z
